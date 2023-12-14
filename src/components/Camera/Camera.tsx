@@ -97,6 +97,9 @@ export const Camera = React.forwardRef<unknown, CameraProps>(
       getNumberOfCameras: () => {
         return numberOfCameras;
       },
+      getStream: () => {
+        return stream;
+      },
     }));
 
     useEffect(() => {
